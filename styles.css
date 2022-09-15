@@ -28,9 +28,26 @@ img {
 
 h1,h2 {
   font-family: 'Outfit', sans-serif;
+  display: flex; 
+  justify-content: center;
+  width: 250px;
+  word-break: normal;
+  text-align: center;
 }
 
-h1, h2 > span {
+h1 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #92959f;
+  font-size: 15px; 
+  font-weight: 400;
+}
+
+/* h1, h2 > span {
   display: flex; 
   justify-content: center;
   width: 250px;
@@ -49,4 +66,4 @@ h1, h2 > span {
   font-size: 15px; 
   margin-top: -10px;
   font-weight: 400;
-}
+} */
