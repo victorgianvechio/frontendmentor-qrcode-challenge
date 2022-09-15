@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
-  background-color: #d5e1ef;
+  background-color: hsl(212, 45%, 89%);
   margin: 0;  
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
-  background-color: #FFF;
+  background-color: hsl(0, 0%, 100%);
   flex-direction: column;
   min-width: 300px;
   border-radius: 20px;
@@ -36,13 +36,13 @@ h1,h2 {
 }
 
 h1 {
-  color: #000;
+  color: hsl(218, 44%, 22%);
   font-size: 22px;
   font-weight: 700;
 }
 
 h2 {
-  color: #92959f;
+  color: hsl(220, 15%, 55%);
   font-size: 15px; 
   font-weight: 400;
 }
